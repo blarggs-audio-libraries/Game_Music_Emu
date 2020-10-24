@@ -1,7 +1,8 @@
-# Game_Music_Emu 0.5.2: Game Music Emulators
+# Game_Music_Emu : Game Music Emulators
 
 Blargg's Audio Libraries - Game_Music_Emu: <http://slack.net/~ant/libs/audio.html#Game_Music_Emu>
 
+-----------------------------------------
 Game_Music_Emu is a collection of video game music file emulators that
 support the following formats and systems:
 
@@ -39,8 +40,11 @@ several architectures, Mac OS, MorphOS, Xbox, PlayStation Portable,
 GP2X, and Nintendo DS.
 
 Author : Shay Green <gblargg@gmail.com>
+
 Website: <http://www.slack.net/~ant/>
+
 Forum  : <http://groups.google.com/group/blargg-sound-libs>
+
 License: GNU Lesser General Public License (LGPL)
 
 ## Getting Started
@@ -67,28 +71,18 @@ test.m3u |             Test m3u playlist for features.c demo
 
 File | Notes
 --- | ---
-  basics.c |           Records NSF file to wave sound file
-  cpp_basics.cpp |      C++ version of basics.c
-  features.c |         Demonstrates many additional features
-  Wave_Writer.h |      WAVE sound file writer used for demo output
-  Wave_Writer.cpp |
-
-### player/
-
-Player using the SDL multimedia library
-
-File | Notes
---- | ---
-  player.cpp |         Simple music player with waveform display
-  Music_Player.cpp |   Stand alone player for background music
-  Music_Player.h |
-  Audio_Scope.cpp |    Audio waveform scope
-  Audio_Scope.h |
-
-### gme/
-
-File | Notes
---- | ---
+basics.c |           Records NSF file to wave sound file
+cpp_basics.cpp |      C++ version of basics.c
+features.c |         Demonstrates many additional features
+Wave_Writer.h |      WAVE sound file writer used for demo output
+Wave_Writer.cpp |
+player/ | Player using the SDL multimedia library
+player.cpp |         Simple music player with waveform display
+Music_Player.cpp |   Stand alone player for background music
+Music_Player.h |
+Audio_Scope.cpp |    Audio waveform scope
+Audio_Scope.h |
+gme/ |
 blargg_config.h |    Library configuration (modify this file as needed)
 gme.h |              C interface (also usable in C++, and simpler too)
 gme.cpp |
